@@ -6,6 +6,10 @@ plugins {
 sourceCompatibility = 10
 targetCompatibility = 10
 
+//tasks.withType(GroovyCompile) {
+//  targetCompatibility = 10
+//}
+
 repositories {
     mavenCentral()
 }
