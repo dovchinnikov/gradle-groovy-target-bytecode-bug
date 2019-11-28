@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+sourceCompatibility = 10
+targetCompatibility = 10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy:2.5.8'
+}
